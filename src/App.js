@@ -11,7 +11,7 @@ class App extends Component {
   };
 
   getInfo() {
-    fetch('http://192.168.20.30:5000/info')
+    fetch('http://115.70.113.222:5000/info')
       .then(res => res.json())
       .then((data) => {
         data.accounts.sort((a, b) => {
