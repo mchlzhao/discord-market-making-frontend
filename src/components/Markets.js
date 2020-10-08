@@ -1,9 +1,9 @@
 import React from 'react';
-import OrderBook from './orderBook';
+import OrderBook from './OrderBook';
 
 const Markets = ({ instruments }) => {
     return (
-        <div className="container">
+        <div className="container" style={{verticalAlign: "middle"}}>
             <div className="row">
                 {instruments.map((instrument) => (
                     <OrderBook key={instrument.id} display_order={instrument.display_order} description={instrument.desc}

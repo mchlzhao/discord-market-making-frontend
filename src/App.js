@@ -53,27 +53,13 @@ class App extends Component {
         <Router>
           <Navigation />
           <Switch>
-            <Route path="/" exact component={() => <Markets instruments = {this.state.instruments} />} />
-            <Route path="/accounts" exact component={() => <Accounts accounts = {this.state.accounts}
+            <Route path="/" exact render={() => <Markets instruments = {this.state.instruments} />} />
+            <Route path="/accounts" exact render={() => <Accounts accounts = {this.state.accounts}
               instruments = {this.state.instruments} />} />
           </Switch>
         </Router>
       </div>
     )
-
-    /*
-    return (
-      <div className="container">
-        <div className="row">
-          {this.state.instruments.map((instrument) => (
-            <OrderBook key = {instrument.id} display_order = {instrument.display_order} description = {instrument.desc} 
-              buy_orders = {instrument.buy_orders} sell_orders = {instrument.sell_orders} />
-          ))}
-        </div>
-        <Accounts accounts = {this.state.accounts} instruments = {this.state.instruments} />
-      </div>
-    )
-    */
   }
 }
 

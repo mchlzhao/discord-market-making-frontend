@@ -39,8 +39,8 @@ const OrderBook = ({ display_order, description, buy_orders, sell_orders }) => {
                 <ul className="list-group list-group-flush w-100">
                     {sell_orders.map(order => orderListItem(order, "sell"))}
                     {sell_message}
-                    <li className="list-group-item d-inline-block text-center bg-dark" style={{borderTopWidth: "2px", borderBottomWidth: "2px",
-                        borderTopColor: "grey", borderBottomColor: "grey"}}>
+                    <li className="list-group-item d-inline-block text-center" style={{borderTopWidth: "1px", borderBottom: 0,
+                        borderTopColor: "grey", borderBottomColor: "grey", backgroundColor: "#262626"}}>
                     </li>
                     {buy_message}
                     {buy_orders.map(order => orderListItem(order, "buy"))}
