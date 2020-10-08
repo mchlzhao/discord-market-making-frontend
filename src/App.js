@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import './App.css';
-import Accounts from './components/accounts';
-import OrderBook from './components/orderBook';
+import Accounts from './components/Accounts';
+import Markets from './components/Markets';
+import Navigation from './components/Navigation';
 
 class App extends Component {
   state = {
@@ -23,7 +25,11 @@ class App extends Component {
           if (a.display_order < b.display_order) return -1;
           if (a.display_order > b.display_order) return 1;
           return 0;
-        })
+        });
+        data.instruments.map(instrument => {
+          instrument.sell_orders.reverse();
+          return instrument;
+        });
         this.setState({
           accounts: data.accounts,
           instruments: data.instruments
@@ -43,6 +49,20 @@ class App extends Component {
 
   render() {
     return (
+      <div className="App">
+        <Router>
+          <Navigation />
+          <Switch>
+            <Route path="/" exact component={() => <Markets instruments = {this.state.instruments} />} />
+            <Route path="/accounts" exact component={() => <Accounts accounts = {this.state.accounts}
+              instruments = {this.state.instruments} />} />
+          </Switch>
+        </Router>
+      </div>
+    )
+
+    /*
+    return (
       <div className="container">
         <div className="row">
           {this.state.instruments.map((instrument) => (
@@ -53,6 +73,7 @@ class App extends Component {
         <Accounts accounts = {this.state.accounts} instruments = {this.state.instruments} />
       </div>
     )
+    */
   }
 }
 

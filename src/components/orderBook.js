@@ -1,8 +1,6 @@
 import React from 'react';
 
 const OrderBook = ({ display_order, description, buy_orders, sell_orders }) => {
-    sell_orders.reverse()
-
     let buy_message;
     let sell_message;
 
