@@ -15,8 +15,8 @@ class App extends Component {
       .then(res => res.json())
       .then((data) => {
         data.accounts.sort((a, b) => {
-          if (a.name < b.name) return -1;
-          if (a.name > b.name) return 1;
+          if (a.balance > b.balance) return -1;
+          if (a.balance < b.balance) return 1;
           return 0;
         });
         data.instruments.sort((a, b) => {
@@ -50,7 +50,7 @@ class App extends Component {
               buy_orders = {instrument.buy_orders} sell_orders = {instrument.sell_orders} />
           ))}
         </div>
-      <Accounts accounts = {this.state.accounts} instruments = {this.state.instruments} />
+        <Accounts accounts = {this.state.accounts} instruments = {this.state.instruments} />
       </div>
     )
   }
