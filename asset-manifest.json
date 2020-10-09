@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/discord-market-making-frontend/static/css/main.da79fd19.chunk.css",
-    "main.js": "/discord-market-making-frontend/static/js/main.873f449a.chunk.js",
-    "main.js.map": "/discord-market-making-frontend/static/js/main.873f449a.chunk.js.map",
+    "main.js": "/discord-market-making-frontend/static/js/main.bc77ed4c.chunk.js",
+    "main.js.map": "/discord-market-making-frontend/static/js/main.bc77ed4c.chunk.js.map",
     "runtime-main.js": "/discord-market-making-frontend/static/js/runtime-main.3f610ed4.js",
     "runtime-main.js.map": "/discord-market-making-frontend/static/js/runtime-main.3f610ed4.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/discord-market-making-frontend/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.ac9a9d9a.chunk.js": "/discord-market-making-frontend/static/js/2.ac9a9d9a.chunk.js",
     "static/js/2.ac9a9d9a.chunk.js.map": "/discord-market-making-frontend/static/js/2.ac9a9d9a.chunk.js.map",
     "index.html": "/discord-market-making-frontend/index.html",
-    "precache-manifest.0ef9044754da113351b070b0290da18d.js": "/discord-market-making-frontend/precache-manifest.0ef9044754da113351b070b0290da18d.js",
+    "precache-manifest.3e7a6096b87e772de78782caf6db0812.js": "/discord-market-making-frontend/precache-manifest.3e7a6096b87e772de78782caf6db0812.js",
     "service-worker.js": "/discord-market-making-frontend/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/discord-market-making-frontend/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.da79fd19.chunk.css.map": "/discord-market-making-frontend/static/css/main.da79fd19.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.ac9a9d9a.chunk.js",
     "static/css/main.da79fd19.chunk.css",
-    "static/js/main.873f449a.chunk.js"
+    "static/js/main.bc77ed4c.chunk.js"
   ]
 }

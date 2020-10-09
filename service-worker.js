@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/discord-market-making-frontend/precache-manifest.0ef9044754da113351b070b0290da18d.js"
+  "/discord-market-making-frontend/precache-manifest.3e7a6096b87e772de78782caf6db0812.js"
 );
 
 self.addEventListener('message', (event) => {
