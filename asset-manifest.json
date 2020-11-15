@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/discord-market-making-frontend/static/css/main.da79fd19.chunk.css",
-    "main.js": "/discord-market-making-frontend/static/js/main.bc77ed4c.chunk.js",
-    "main.js.map": "/discord-market-making-frontend/static/js/main.bc77ed4c.chunk.js.map",
-    "runtime-main.js": "/discord-market-making-frontend/static/js/runtime-main.3f610ed4.js",
-    "runtime-main.js.map": "/discord-market-making-frontend/static/js/runtime-main.3f610ed4.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/discord-market-making-frontend/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.ac9a9d9a.chunk.js": "/discord-market-making-frontend/static/js/2.ac9a9d9a.chunk.js",
-    "static/js/2.ac9a9d9a.chunk.js.map": "/discord-market-making-frontend/static/js/2.ac9a9d9a.chunk.js.map",
-    "index.html": "/discord-market-making-frontend/index.html",
-    "precache-manifest.3e7a6096b87e772de78782caf6db0812.js": "/discord-market-making-frontend/precache-manifest.3e7a6096b87e772de78782caf6db0812.js",
-    "service-worker.js": "/discord-market-making-frontend/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/discord-market-making-frontend/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.da79fd19.chunk.css.map": "/discord-market-making-frontend/static/css/main.da79fd19.chunk.css.map",
-    "static/js/2.ac9a9d9a.chunk.js.LICENSE.txt": "/discord-market-making-frontend/static/js/2.ac9a9d9a.chunk.js.LICENSE.txt"
+    "main.css": "/yanhui/prophetic/static/css/main.da79fd19.chunk.css",
+    "main.js": "/yanhui/prophetic/static/js/main.d39e63e3.chunk.js",
+    "main.js.map": "/yanhui/prophetic/static/js/main.d39e63e3.chunk.js.map",
+    "runtime-main.js": "/yanhui/prophetic/static/js/runtime-main.a883e7a5.js",
+    "runtime-main.js.map": "/yanhui/prophetic/static/js/runtime-main.a883e7a5.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/yanhui/prophetic/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.ac9a9d9a.chunk.js": "/yanhui/prophetic/static/js/2.ac9a9d9a.chunk.js",
+    "static/js/2.ac9a9d9a.chunk.js.map": "/yanhui/prophetic/static/js/2.ac9a9d9a.chunk.js.map",
+    "index.html": "/yanhui/prophetic/index.html",
+    "precache-manifest.d7b34898861505d9a76218316d6b04a5.js": "/yanhui/prophetic/precache-manifest.d7b34898861505d9a76218316d6b04a5.js",
+    "service-worker.js": "/yanhui/prophetic/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/yanhui/prophetic/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.da79fd19.chunk.css.map": "/yanhui/prophetic/static/css/main.da79fd19.chunk.css.map",
+    "static/js/2.ac9a9d9a.chunk.js.LICENSE.txt": "/yanhui/prophetic/static/js/2.ac9a9d9a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f610ed4.js",
+    "static/js/runtime-main.a883e7a5.js",
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.ac9a9d9a.chunk.js",
     "static/css/main.da79fd19.chunk.css",
-    "static/js/main.bc77ed4c.chunk.js"
+    "static/js/main.d39e63e3.chunk.js"
   ]
 }
